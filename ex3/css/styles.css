@@ -1,0 +1,45 @@
+body {
+}
+.cx-1,
+.cx-2 {
+  margin: 30px;
+}
+
+.cx-1 {
+  width: calc(100% - 60px);
+  height: 100px;
+  background-color: green;
+}
+
+.cx-2 {
+  width: calc(50% - 60px);
+  height: 100px;
+  background-color: orange;
+  float: left;
+}
+.cx-interior {
+  width: 100%;
+  height: 60px;
+  background: yellow;
+}
+
+.cx-interior1,
+.cx-interior2,
+.cx-interior3 {
+  width: calc(33.33% - 20px);
+  height: 70px;
+  float: left;
+  padding: 10px;
+}
+
+.cx-interior1 {
+  background-color: turquoise;
+}
+
+.cx-interior2 {
+  background-color: tomato;
+}
+
+.cx-interior3 {
+  background-color: salmon;
+}
