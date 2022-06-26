@@ -1,184 +1,289 @@
 @font-face {
-  font-family: "a minha fonte";
-  src: url("../assets/fonts/Pacifico/Pacifico-Regular.ttf");
+    font-family: "a minha fonte";
+    src: url("../assets/fonts/Pacifico/Pacifico-Regular.ttf");
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
-  width: 100%;
-  height: 1000px;
-  background: orange;
+    width: 100%;
+    /*height: 1000px;*/
+    float: left;
+    background: orange;
 }
 
 header {
-  width: 100%;
-  height: 50px;
-  background: #ffffff;
-  float: left;
-  padding-top: 15px;
-  position: fixed;
+    width: 100%;
+    height: 50px;
+    background: #ffffff;
+    float: left;
+    padding-top: 15px;
+    position: fixed;
 }
 
 .hero {
-  width: 100%;
-  height: 300px;
-  background-image: url("../assets/images/banner.jpg");
-  float: left;
-  margin-top: 65px;
+    width: 100%;
+    height: 300px;
+    background-image: url("../assets/images/banner.jpg");
+    float: left;
+    margin-top: 65px;
 }
 
 .hero div h1 {
-  color: deepskyblue;
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+    color: deepskyblue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero div p {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  font-size: 16px;
-  line-height: 25px;
-  color: #727a82;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #727a82;
 }
 
 .hero div button {
-  margin: auto;
-  background: #f6755e;
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-  border: none;
-  font-weight: bold;
-  padding: 10px;
-  width: 120px;
-  border-radius: 5px;
-  text-transform: uppercase;
+    margin: auto;
+    background: #f6755e;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    text-transform: uppercase;
 }
 
 .hero div {
-  text-align: center;
-  margin-top: px;
-  width: 70%;
-  height: 200px;
-  margin-top: 50px;
-  /*margin-left: auto;
-    margin-right: auto*/
-  margin-left: 15%;
-  margin-right: 15%;
+    text-align: center;
+    margin-top: px;
+    width: 70%;
+    height: 200px;
+    margin-top: 50px;
+    /*margin-left: auto;
+  margin-right: auto*/
+    ;
+    margin-left: 15%;
+    margin-right: 15%;
 }
+
 .main-content {
-  width: calc(100% - 200px);
-  /*height: 300px*/
-  float: left;
-  background: green;
-  padding: 100px;
+    width: calc(100% - 200px);
+    /*height: 600px*/
+    float: left;
+    padding: 100px;
 }
+
 .box-content {
-  width: 100%;
-  height: 200px;
-  background: #f6755e;
-  color: #fcdcd6;
-  float: left;
+    width: calc(100% - 100px);
+    /*height: 200px*/
+    ;
+    background: #f6755e;
+    color: #fcdcd6;
+    float: left;
+    padding: 50px;
 }
-section.article.section {
-  width: 100%;
-  height: 200px;
-  background: #fff;
-  float: left;
+
+section.article-section {
+    width: 100%;
+    /*height: 200px*/
+    ;
+    background: #fff;
+    float: left;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
+
 footer {
-  background: blanchedalmond;
-  float: left;
-  width: 100%;
-  height: 200px;
+    background: #fff;
+    float: left;
+    width: 100%;
+    height: 200px;
 }
+
 header div {
-  text-align: center;
+    text-align: center;
 }
+
 header div:first-child {
-  width: 100px;
-  height: 100px;
-  float: left;
-  font-style: 200px;
-  color: #e3e3e3;
+    width: 100px;
+    height: 100px;
+    float: left;
+    font-style: 200px;
+    color: #e3e3e3;
 }
+
 header div:first-child span {
-  padding: 10px;
-  border: 2px solid #e3e3e3;
-  border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #e3e3e3;
+    border-radius: 5px;
 }
+
 header div:nth-child(2) {
-  width: calc(100% - 200px);
-  float: left;
-  font-family: "a minha fonte";
-  color: #f6755e;
-  font-size: 25px;
-  font-weight: bold;
+    width: calc(100% - 200px);
+    float: left;
+    font-family: "a minha fonte";
+    color: #f6755e;
+    font-size: 25px;
+    font-weight: bold;
 }
+
 header div:nth-child(3) {
-  width: 85px;
-  height: 100px;
-  float: right;
-  padding-right: 15px;
+    width: 85px;
+    height: 100px;
+    float: right;
+    padding-right: 15px;
 }
 
 header div button {
-  width: 100%;
-  height: 35px;
-  background-color: #fff;
-  color: #727a82;
-  border: 2px solid #727a82;
-  border-radius: 5px;
-}
-.colun {
-  width: 33.33%;
-  float: left;
-  height: 400px;
-  background: purple;
-}
-.colun1 {
-  background: black;
-}
-.colun2 {
-  background: red;
-}
-.colun3 {
-  background: saddlebrown;
+    width: 100%;
+    height: 35px;
+    background-color: #fff;
+    color: #727a82;
+    border: 2px solid #727a82;
+    border-radius: 5px;
 }
 
+.colun {
+    width: 33.33%;
+    float: left;
+    /*height: 400px;*/
+    ;
+}
+
+.colun1 {}
+
+.colun2 {}
+
+.colun3 {}
+
 .colun h2 {
-  font-weight: bold;
-  color: #25a2c3;
-  padding-bottom: 30px;
-  font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-size: 20px;
 }
 
 .colun p {
-  color: #727a82;
+    color: #727a82;
 }
+
 .colun div:first-child {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
+
 .colun div {
-  text-align: right;
+    text-align: right;
 }
+
+.colun1 div,
 .colun3 div {
-  text-align: left;
+    padding: 20px;
 }
+
+.colun3 div {
+    text-align: left;
+}
+
 .colun2 div {
-  text-align: center;
+    text-align: center;
 }
+
 .moldura {
-  width: 150px;
-  height: 150px;
-  background: pink;
-  margin: 0 auto;
-  border-radius: 75px;
-  overflow: hidden;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 175px;
+    overflow: hidden;
 }
 
 .moldura img {
-  width: 100%;
+    width: 100%;
+}
+
+.box-content h2 {
+    color: deepskyblue;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.box-content p {
+    text-align: center;
+}
+
+.box-content .quote {
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.box-content span {
+    font-weight: bold;
+}
+
+.article-section ul {
+    width: 70%;
+    float: left;
+    margin-left: 15%;
+}
+
+.article-section li {
+    width: calc(33.33% - 42px);
+    float: left;
+    margin: 20px 20px;
+    border: solid 1px #dee1e3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.article-section .conteudo {
+    float: left;
+    width: calc(100% - 40px);
+    padding: 20px;
+    min-height: 100px;
+}
+
+.article-section .conteudo h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #25a2c3;
+}
+
+.article-section .conteudo p {
+    color: #727a82
+}
+
+footer h2 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+footer ul {
+    width: 70%;
+    margin-left: 15%;
+}
+
+footer li {
+    width: 33.33%;
+    float: left;
+}
+
+footer ul li:first-child {
+    text-align: left;
+}
+
+footer ul li:nth-child(2) {
+    text-align: center
+}
+
+footer ul li:nth-child(3) {
+    text-align: right
 }

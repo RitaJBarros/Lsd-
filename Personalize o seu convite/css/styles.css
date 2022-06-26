@@ -1,0 +1,129 @@
+.menu {
+    width: 100%;
+    float: left;
+    text-align: center;
+    height: 60vh;
+    background-image: url(../imagens/pexels-trung-nguyen-2959192.jpg);
+    background-size: cover;
+}
+
+.menu nav {
+    margin-top: 50px;
+    width: calc(100% - 150px);
+    float: right;
+    text-align: right;
+    position: relative;
+    color: #fffaf4;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    margin-top: 50px;
+    color: black;
+}
+
+.menu nav ul {
+    margin-right: 20px;
+}
+
+.menu nav li {
+    display: inline-block;
+    width: 8%;
+}
+
+.texto {
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+    font-size: 35px;
+    line-height: normal;
+    text-align: center;
+    margin-top: calc(29% - 235px);
+}
+
+.text p {
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.moldura {
+    text-align: left;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.moldura img {
+    width: 100%;
+}
+
+.column {
+    font-size: 25px;
+    color: black;
+    float: left;
+    text-align: left;
+    margin-top: 55px;
+    width: 50%;
+    background-color: orange;
+}
+
+.colun div p {
+    width: 70%;
+    height: auto;
+    float: right;
+    margin-right: 55px;
+    color: black;
+}
+
+.form-noivos {
+    text-align: right;
+    color: black;
+    /* padding-right: 60px; */
+    border: 5px solid #E0E0E0;
+    position: relative;
+    float: left;
+    padding-top: 150px;
+    width: calc(50% - 10px);
+}
+
+.footer {
+    background: #A9B1A4;
+    float: left;
+    width: 100%;
+}
+
+.items-menu-footer {
+    float: left;
+    margin-top: 50px;
+    color: white;
+}
+
+.items-menu-footer li {
+    float: left;
+    padding-left: 20px;
+}
+
+.social {
+    float: right;
+    margin-top: 50px;
+    color: white;
+}
+
+.social li {
+    float: right;
+    color: white;
+}
+
+.ajuda {
+    float: left;
+    margin-top: 50px;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.ajuda li {
+    float: left;
+    padding-left: 20px;
+}
