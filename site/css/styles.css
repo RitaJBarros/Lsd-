@@ -1,0 +1,293 @@
+.menu {
+    width: 100%;
+    float: left;
+    text-align: center;
+    height: 100vh;
+    background-image: url(../imagens/pexels-trung-nguyen-2959192.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.menu nav {
+    margin-top: 50px;
+    width: calc(100% - 150px);
+    float: right;
+    text-align: right;
+    position: relative;
+    color: #fffaf4;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    margin-top: 50px;
+    color: black;
+    font-family: Noteworthy;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.menu nav ul {
+    margin-right: 20px;
+}
+
+.menu nav li {
+    display: inline-block;
+    width: 8%;
+}
+
+.texto {
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+    /* padding: 20%; */
+    font-size: 35px;
+    /* padding-bottom: 100px; */
+    line-height: normal;
+    text-align: center;
+    margin-top: calc(37% - 235px);
+}
+
+.texto p {
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.texto button {
+    margin: auto;
+    color: black;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.sobre-nos {
+    background: white;
+    text-align: left;
+    color: black;
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.sobre-nos h1 {
+    background: white;
+    text-align: left;
+    color: black;
+    width: 100%;
+    float: left;
+    margin-top: 55px;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.sobre-nos div img {
+    width: 55%;
+    height: auto;
+    float: right;
+    margin-right: 40px;
+    /* margin-right: 100px; */
+    /* padding-bottom: 100px; */
+    /* padding-left: 100px;*/
+}
+
+.Como-construir-O-seu-convite {
+    background: #fffaf4;
+    text-align: center;
+    float: left;
+    line-height: 25px;
+    width: 100%;
+    color: black;
+    margin-top: 55px;
+    font-family: Bebas Neue;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.Como-construir-O-seu-convite p {
+    text-align: center;
+}
+
+.sobre-nos p {
+    width: 50%;
+    float: left;
+}
+
+.sobre-nos .imagem {
+    width: 50%;
+    float: left;
+}
+
+.Passo {
+    background: #a9b1a4;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    border-radius: 175px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    font-family: Bebas Neue;
+    color: #fffaf4;
+    font-weight: bold;
+}
+
+.Passo2 {
+    background: #a9b1a4;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    border-radius: 175px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+.Passo3 {
+    background: #a9b1a4;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    border-radius: 175px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+.Passo4 {
+    background: #a9b1a4;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    border-radius: 175px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+.Passo p {
+    font-family: Poppins;
+    color: #fffaf4;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.Testemunhos {
+    margin-top: 100px;
+    width: 100%;
+    float: right;
+    text-align: center;
+    position: relative;
+    margin-bottom: 60px;
+    font-family: Bebas Neue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Testemunhos div {
+    width: calc(33.33% - 40px);
+    float: left;
+    background: #fffaf4;
+    margin: 20px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+/*
+
+.HelenaOrlando {
+    margin: 100px;
+    width: calc(25% - 20px);
+    background: #fffaf4;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+}
+
+.VerónicaJaime {
+    margin: 100px;
+    width: calc(25% - 20px);
+    background: #fffaf4;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+}
+
+.CatarinaJorge {
+    margin: 100px;
+    width: calc(25% - 20px);
+    background: #fffaf4;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+}
+
+*/
+
+.Passo div {
+    margin-top: 70px;
+}
+
+.footer {
+    background: #A9B1A4;
+    float: left;
+    width: 100%;
+}
+
+.items-menu-footer {
+    float: left;
+    margin-top: 50px;
+    color: white;
+    font-family: Poppins;
+    font-size: 10px;
+}
+
+.items-menu-footer li {
+    float: left;
+    padding-left: 20px;
+}
+
+.items-menu-footer div {
+    font-family: Noteworthy;
+    font-size: 15px;
+    float: left;
+    color: white;
+}
+
+.social {
+    float: right;
+    margin-top: 50px;
+    color: white;
+    font-family: Poppins;
+    font-size: 10px;
+}
+
+.social li {
+    float: right;
+    color: white;
+}
+
+.ajuda {
+    margin-top: 100px;
+    color: white;
+    padding-bottom: 60px;
+    font-family: Poppins;
+    font-size: 10px;
+    float: left;
+}
+
+.ajuda li {
+    float: left;
+    padding-left: 20px;
+}

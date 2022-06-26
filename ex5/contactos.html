@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/reset.css" />
+    <link rel="stylesheet" href="Css/formularios.css" />
+  </head>
+  <body>
+    <form action="recebe_dados.html" method="post">
+      <ul>
+        <li>
+          <label for="nome_inserido"> nome: </label>
+          <input
+            type="text"
+            name="nome_inserido"
+            placeholder="inserir o nome"
+            required
+          />
+        </li>
+        <li>
+          <label for="nome_inserido"> email: </label>
+          <input
+            type="email"
+            name="email_inserido"
+            placeholder="inserir email"
+          />
+        </li>
+        <li>
+          <label>data de nascimento</label>
+          <input name="data_nascimento" type="date" />
+        </li>
+        <li>
+          <label>genero</label>
+          M <input type="radio" name="genero " value="masculino" />
+
+          F<input type="radio" name="genero " value="feminino" />
+
+          outros<input type="radio" name="genero " value="outros" />
+        </li>
+        <li>
+          <label>cidade</label>
+          <select name="cidade">
+            <option>escolha a sua cidade</option>
+            <option value="1000">lisboa</option>
+            <option value="2000">porto</option>
+            <option value="3000">coimbra</option>
+          </select>
+        </li>
+        <li>
+          <label>interesses</label>
+          <ul>
+            <li>
+              cinema
+              <input type="checkbox" name="interesses[]" value="cinema" />
+            </li>
+            <li>
+              musica
+              <input type="checkbox" name="interesses[]" value="musica" />
+            </li>
+          </ul>
+        </li>
+        <li>
+          <label>numero de carros em casa </label>
+          <input type="number" max="10" min="0" />
+        </li>
+        <li>
+          <button>enviar</button>
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>

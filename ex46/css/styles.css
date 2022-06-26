@@ -1,0 +1,16 @@
+        .slide-inicial {
+            width: 800px;
+        }
+        
+        .slide-inicial img {
+            width: 100%;
+        }
+        
+        .slide-final {
+            width: 800px;
+            margin-top: 150px;
+        }
+        
+        .slide-final img {
+            width: 100%;
+        }

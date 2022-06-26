@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="wapper">
+        <div class="numeros">
+            <table>
+                <tr>
+                    <td>
+                        <button onclick="adicionaAlgarismo(9)">9</button>
+                    </td>
+                    <td>
+                        <button onclick="adicionaAlgarismo(8)">8</button>
+                    </td>
+                    <td>
+                        <button onclick="adicionaAlgarismo(7)">7 </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button onclick="adicionaAlgarismo(6)">6</button>
+                    </td>
+                    <td>
+                        <button onclick="adicionaAlgarismo(5)">5</button>
+                    </td>
+                    <td>
+                        <button onclick="adicionaAlgarismo(4)">4</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button onclick="adicionaAlgarismo(3)">3</button>
+                    </td>
+                    <td>
+                        <button onclick="adicionaAlgarismo(2)">2</button>
+                    </td>
+                    <td>
+                        <button onclick="adicionaAlgarismo(1)">1</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button onclick="ApagarTudo()">C</button>
+                    </td>
+                    <td>
+                        <button onclick="adicionaAlgarismo(0)">0</button>
+                    </td>
+                    <td>
+                        <button onclick="adicionaAlgarismo('.')">,</button>
+                    </td>
+                </tr>
+
+
+
+            </table>
+        </div>
+        <div class="operadores">
+            <table>
+                <tr>
+                    <td>
+                        <button onclick="atribuiOperacao('soma')">+</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="atribuiOperacao('sub')">-</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="atribuiOperacao('mul')">*</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="atribuiOperacao('div')">/</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="fazConta()">=</button>
+                    </td>
+                </tr>
+
+
+
+
+
+            </table>
+
+
+        </div>
+        <div class="resultados">
+
+
+        </div>
+
+    </div>
+    <input type="hidden" id="parcela1">
+    <input type="hidden" id="parcela2">
+    <input type="hidden" id="operacaoEscolhida">
+
+
+    <script src="script/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+.wrapper {
+    width: 100%;
+    /*height: 1000px;*/
+    background: lightcoral;
+    float: left;
+    margin: 0px 60px 0px 60px;
+}
+
+header {
+    width: 100%;
+    background: grey;
+    float: left;
+    padding-top: 15px;
+}
+
+header div span:nth-child(3) {
+    text-align: right;
+    padding-left: 950px;
+}
+
+.hero {
+    text-align: right;
+}
+
+.hero span:first-child {
+    text-align: left;
+    padding-right: 1210px;
+}
+
+.read-more {
+    background-image: url(../img/LSD/img/bg_image_3.jpg);
+    float: left;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    margin: 0;
+    display: block;
+    padding-top: 200px;
+}
+
+.read-more h1 {
+    color: brown;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.read-more div button {
+    width: 10%;
+    height: 20px;
+    background-color: #fff;
+    color: #727a82;
+    border: 2px solid #727a82;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.about-us {
+    width: 100%;
+    height: 900px;
+    text-align: left;
+    padding-top: 500px;
+    background: white;
+}
+
+.about-us div img {
+    width: 300px;
+    height: auto;
+    float: right;
+    margin-right: 100px;
+}
+
+.about-us h3 {
+    padding-top: 500px;
+    height: 50px;
+}
+
+.about-us p {
+    padding-top: 50px;
+    height: 50px;
+}
+
+.about-us div button {
+    width: 10%;
+    height: 20px;
+    border: 2px solid #727a82;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.our-services {
+    width: 100%;
+    height: 525px;
+    text-align: center;
+    background: navajowhite;
+}
+
+.article-section li {
+    width: calc(25% - 42px);
+    float: left;
+    margin: 20px 20px;
+    border: solid 0px;
+    overflow: hidden;
+}
+
+.article-section .conteudo {
+    float: left;
+    width: calc(100% - 40px);
+    padding: 20px;
+    min-height: 100px;
+}
+
+.our-teams {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    background: violet;
+}
+
+.our-teams li {
+    width: calc(33.33% - 42px);
+    float: left;
+    margin: 20px 20px;
+    border: solid 0px;
+    overflow: hidden;
+}

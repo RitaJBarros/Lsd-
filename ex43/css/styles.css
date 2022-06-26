@@ -1,0 +1,25 @@
+body {
+    overflow-x: hidden;
+}
+
+.caixa-1 {
+    background: orange;
+    height: 150px;
+}
+
+.coluna-1 {
+    background: yellow;
+    height: 150px;
+}
+
+.coluna-2 {
+    background: pink;
+    height: 150px;
+}
+
+.esquema-1 {
+    background: green;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

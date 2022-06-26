@@ -1,0 +1,17 @@
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+div {
+    width: 70%;
+    float: left;
+    margin-left: 15%;
+}
+
+div li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

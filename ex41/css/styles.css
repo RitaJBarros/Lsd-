@@ -1,0 +1,19 @@
+body {
+    background: blue;
+}
+
+.carasol {
+    width: 70%;
+    margin: 0 15%;
+}
+
+.moldura {
+    width: 90%;
+    height: 300px;
+    margin: 0 5%;
+    overflow: hidden;
+}
+
+.moldura img {
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+.caixa_drop {
+    width: 200px;
+    background: peru;
+    padding: 20px;
+    display: none;
+}
+
+.caixa-4 {
+    width: 200px;
+    background: peru;
+    padding: 20px;
+    position: relative;
+}

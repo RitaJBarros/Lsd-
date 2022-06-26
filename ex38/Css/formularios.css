@@ -1,0 +1,7 @@
+form {
+  width: 50%;
+  padding: calc(50px - 40px);
+  margin-left: 25%;
+  margin-top: 50px;
+  border: 1px solid #0000;
+}

@@ -1,0 +1,27 @@
+.caixa-1,
+.caixa-2,
+.caixa-3,
+.caixa-4 {
+    width: 100px;
+    height: 100px;
+    display: none;
+    margin: 20px;
+    float: left;
+    display: none;
+}
+
+.caixa-1 {
+    background: lightgreen;
+}
+
+.caixa-2 {
+    background: lightcoral;
+}
+
+.caixa-3 {
+    background: blue;
+}
+
+.caixa-4 {
+    background: blueviolet;
+}
